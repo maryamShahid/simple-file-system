@@ -2,7 +2,7 @@
 
 A simple file system using indexed allocation
 
-##### Run the Program
+##### Run the program with
 
 ```
 $ ./create_format <FILENAME> <SIZE>
