@@ -65,6 +65,7 @@ int main(int argc, char **argv) {
         c = (char) buffer[0];
         c = c + 1;
     }
+    sfs_delete("file3.bin");
     sfs_close (fd);
     ret = sfs_umount();
 }
