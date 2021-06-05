@@ -26,7 +26,7 @@ struct FILES {
 void set_bit(void *bitmap, int nblock, unsigned int bit_index) {
     void *curr = bitmap + BITMAP_SIZE * nblock;
     int char_index = bit_index / BIT_OFFSET;
-    int index = 7 - (bit_index % BIT_OFFSET);
+    int index = (BIT_OFFSET-1) - (bit_index % BIT_OFFSET);
     curr = curr + char_index * sizeof(char);
     *(char *) curr |= 1UL << index;
 }
