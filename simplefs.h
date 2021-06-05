@@ -1,6 +1,6 @@
 #define MODE_READ 0
 #define MODE_APPEND 1
-#define BLOCKSIZE 4096 // bytes
+#define BLOCKSIZE 4096 //bytes
 
 int create_format_vdisk (char *vdiskname, unsigned int  m);
 
