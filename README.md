@@ -1,6 +1,6 @@
 # Simple File System
 
-A simple file system using indexed allocation which stores files in a virtual disk. 
+A simple file system implementation with indexed allocation which stores files in a virtual disk. 
 An application that would like to create and use files will be linked with the library.
 
 #### Run the program with:
